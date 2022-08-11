@@ -1,7 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990f6c18-eb78-4c84-bb35-cb8e419886b3" name="Changes" comment="feat: 작업 전 파일 정리, header 작업 전 파일 세팅" />
+    <list default="true" id="990f6c18-eb78-4c84-bb35-cb8e419886b3" name="Changes" comment="feat: 작업 전 파일 정리, header 작업 전 파일 세팅">
+      <change afterPath="$PROJECT_DIR$/.idea/slido-home-clone.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/PageLayout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/header/menu/MainMenuItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/header/menu/SubMenuItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/header/menu/subMenuRight.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/header/menu/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/badge/ic_badge1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/badge/ic_badge1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/badge/ic_badge2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/badge/ic_badge2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/badge/ic_badge3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/badge/ic_badge3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/category/ic_all_hands_meetings.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/category/ic_all_hands_meetings.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/category/ic_analytics.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/category/ic_analytics.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/category/ic_business.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/category/ic_business.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/category/ic_conferences.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/category/ic_conferences.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/category/ic_customer_stories.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/category/ic_customer_stories.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/category/ic_education.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/category/ic_education.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/category/ic_hybrid_meetings.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/category/ic_hybrid_meetings.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/category/ic_integrations.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/category/ic_integrations.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/category/ic_live.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/category/ic_live.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/category/ic_live_polls.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/category/ic_live_polls.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/category/ic_product_tour.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/category/ic_product_tour.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/category/ic_quizzes.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/category/ic_quizzes.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/category/ic_remote_meetings.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/category/ic_remote_meetings.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/category/ic_virtual_events.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/category/ic_virtual_events.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/category/ic_webinars.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/category/ic_webinars.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/category/ic_word_cloud.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/category/ic_word_cloud.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/company/ic_booking_black.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/company/ic_booking_black.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/company/ic_oracle_black.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/company/ic_oracle_black.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/company/ic_suntory.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/company/ic_suntory.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/company/ic_suntory_black.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/company/ic_suntory_black.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/company/ic_swiss_black.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/company/ic_swiss_black.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/company/ic_web_summit_black.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/company/ic_web_summit_black.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/company/ic_zapier.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/company/ic_zapier.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/company/ic_zendesk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/company/ic_zendesk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/feature/ic_analytics.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/feature/ic_analytics.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/feature/ic_free.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/feature/ic_free.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/feature/ic_intuitive.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/feature/ic_intuitive.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/feature/ic_many_polls.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/feature/ic_many_polls.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/feature/ic_polls.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/feature/ic_polls.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/feature/ic_questions.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/feature/ic_questions.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/feature/ic_quizzes.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/feature/ic_quizzes.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/ic_arrow_down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/ic_arrow_down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/ic_logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/ic_logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/ic_menu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/ic_menu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/integration/ic_google_slides.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/integration/ic_google_slides.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/integration/ic_microsoft_teams.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/integration/ic_microsoft_teams.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/integration/ic_powerpoint.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/integration/ic_powerpoint.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/integration/ic_webex.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/integration/ic_webex.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/integration/ic_youtube.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/integration/ic_youtube.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mock/badges.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mock/badges.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mock/customers.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mock/customers.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mock/integrations.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mock/integrations.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mock/main-features.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mock/main-features.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mock/sub-features.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mock/sub-features.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/videos/videos_welcome.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/public/videos/videos_welcome.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/GlobalStyle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/GlobalStyle.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/header/acount/HeaderAccount.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/acount/HeaderAccount.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/header/logo/SlidoLogo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/logo/SlidoLogo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/header/menu/HeaderMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/menu/HeaderMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,8 +80,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -27,22 +96,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/kimyena/Desktop/React/slido-home-clone",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
-    "ts.external.directory.path": "/Users/kimyena/Desktop/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kimyena/Desktop/React/slido-home-clone&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/kimyena/Desktop/React/slido-home-clone/node_modules/typescript/lib&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,7 +124,21 @@
       <workItem from="1659691604020" duration="1461000" />
       <workItem from="1659693082020" duration="1131000" />
       <workItem from="1659694222128" duration="1005000" />
-      <workItem from="1659695341504" duration="4124000" />
+      <workItem from="1659695341504" duration="4969000" />
+      <workItem from="1659793590527" duration="4076000" />
+      <workItem from="1659797931562" duration="5265000" />
+      <workItem from="1659803213803" duration="2282000" />
+      <workItem from="1659805503244" duration="5117000" />
+      <workItem from="1659840502254" duration="7736000" />
+      <workItem from="1659935124539" duration="15000" />
+      <workItem from="1659943729543" duration="1199000" />
+      <workItem from="1659956693809" duration="2002000" />
+      <workItem from="1660012497635" duration="46000" />
+      <workItem from="1660088185998" duration="1182000" />
+      <workItem from="1660111911493" duration="616000" />
+      <workItem from="1660133771351" duration="6773000" />
+      <workItem from="1660176422087" duration="14000" />
+      <workItem from="1660176522314" duration="8516000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 작업 전 파일 정리, header 작업 전 파일 세팅">
       <created>1659699672152</created>
@@ -83,6 +167,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: 작업 전 파일 정리, header 작업 전 파일 세팅" />
     <option name="LAST_COMMIT_MESSAGE" value="feat: 작업 전 파일 정리, header 작업 전 파일 세팅" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts</url>
+          <line>121</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

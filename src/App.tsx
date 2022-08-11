@@ -2,15 +2,16 @@ import React from 'react';
 import { Reset } from 'styled-reset';
 
 import GlobalStyle from './component/GlobalStyle';
-import Header from "./component/header/Header";
+import PageLayout from './component/PageLayout';
 
 function App() {
-  return (
-      <React.Fragment>
-          <Reset />
-          <GlobalStyle />
-      </React.Fragment>
-  );
+    return (
+        <React.Fragment>
+            <Reset />
+            <GlobalStyle />
+            <PageLayout />
+        </React.Fragment>
+    );
 }
 
 export default App;

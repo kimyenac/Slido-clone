@@ -12,6 +12,12 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
     
+    button {
+      font-size: 16px;
+      background: none;
+      border: none;
+    }
+    
     body{
         margin: 0;
         padding: 0;
