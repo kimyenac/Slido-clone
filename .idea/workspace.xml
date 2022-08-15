@@ -1,25 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990f6c18-eb78-4c84-bb35-cb8e419886b3" name="Changes" comment="feat: 작업 전 파일 정리, header 작업 전 파일 세팅">
-      <change afterPath="$PROJECT_DIR$/public/icons/cookie.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/ManagerBanner.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/main/Main.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/main/naming/Badges.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/main/naming/Cards.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/main/naming/Cards2.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/main/naming/CtaGreen.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/main/naming/IndexHeader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/main/naming/Logos.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/main/naming/Logos2.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/main/naming/MiddleBox.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/main/naming/Search.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/main/naming/types.ts" afterDir="false" />
+    <list default="true" id="990f6c18-eb78-4c84-bb35-cb8e419886b3" name="Changes" comment="feat: main 일부 작업">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/GlobalStyle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/GlobalStyle.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/PageLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/PageLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/Header.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +20,8 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -110,7 +95,8 @@
       <workItem from="1660399711397" duration="564000" />
       <workItem from="1660400648531" duration="294000" />
       <workItem from="1660483609631" duration="3716000" />
-      <workItem from="1660548149065" duration="4857000" />
+      <workItem from="1660548149065" duration="5472000" />
+      <workItem from="1660553633731" duration="452000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 작업 전 파일 정리, header 작업 전 파일 세팅">
       <created>1659699672152</created>
@@ -119,7 +105,35 @@
       <option name="project" value="LOCAL" />
       <updated>1659699672152</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: main 일부 작업">
+      <created>1660553498330</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660553498330</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: main 일부 작업">
+      <created>1660553620327</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660553620327</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: main 일부 작업">
+      <created>1660553646915</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660553646915</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: main 일부 작업">
+      <created>1660554040690</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660554040690</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +152,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: 작업 전 파일 정리, header 작업 전 파일 세팅" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 작업 전 파일 정리, header 작업 전 파일 세팅" />
+    <MESSAGE value="feat: main 일부 작ㅏ" />
+    <MESSAGE value="feat: main 일부 작업" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: main 일부 작업" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
