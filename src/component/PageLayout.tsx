@@ -1,6 +1,7 @@
 import {useEffect, useState } from "react";
 import Header from "./header/Header";
 import { MainMenu } from "./header/menu/types";
+import Main from "./main/Main";
 
 const PageLayout = () => {
     const [headerMenuList, setHeaderMenuList] = useState<MainMenu[]>([]);
@@ -18,6 +19,7 @@ const PageLayout = () => {
     return (
         <>
             <Header menuList={headerMenuList} />
+            <Main />
         </>
     );
 };

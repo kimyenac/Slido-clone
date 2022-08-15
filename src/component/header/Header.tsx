@@ -9,7 +9,12 @@ import HeaderAccount from "./acount/HeaderAccount";
 const Container = styled.div`
   width: 100%;
   position: fixed;
+  top: 0;
+  left: 0;
   padding: 16px 0 0;
+  background-color: #fff;
+  
+  z-index: 1;
   
   &.scrolling {
     box-shadow: 0 0.125rem 0.125rem rgb(0, 0, 0, 0.1);

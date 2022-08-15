@@ -22,7 +22,7 @@ const GlobalStyle = createGlobalStyle`
         margin: 0;
         padding: 0;
         font-family: 'Noto Sans KR', sans-serif;
-        height: 200vh;
+        padding-top: 80px;
         background-color: #ffffff;
     }
 `;
