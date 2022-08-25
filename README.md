@@ -1,6 +1,6 @@
 # Slido-Clone Coding
 
-**첫 사이트 프로젝트**
+**첫 사이드 프로젝트**
 
 https://www.slido.com/ Slido 클론 코딩 프로젝트 (React 기반) - 개인 작업 / 스터디
 
