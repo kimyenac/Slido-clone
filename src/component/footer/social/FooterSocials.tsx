@@ -13,7 +13,7 @@ const Wrapper = styled.div`
 
 const Container = styled.article`
   position: relative;
-  margin: 0 auto 0 20rem;
+  margin: 0 auto 0 5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
