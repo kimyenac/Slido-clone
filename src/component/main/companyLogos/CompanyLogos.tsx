@@ -1,13 +1,13 @@
 import styled from "@emotion/styled";
 import {useEffect, useState} from "react";
-import {LogoItem2} from "./types";
+import { companyLogoItem } from "../types";
 
 const Container = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  padding: 56px 32px;
+  gap: 2rem;
+  padding: 3.5rem 2rem;
   background-color: #f5f5f5;
 `;
 
@@ -23,11 +23,11 @@ const Item = styled.div`
   flex: 1;
   flex-direction: column;
   align-items: center;
-  gap: 4px;
+  gap: 0.25rem;
 `;
 
-const Logos2 = () => {
-    const [logosList, setLogosList] = useState<LogoItem2[]>([]);
+const CompanyLogos = () => {
+    const [logosList, setLogosList] = useState<companyLogoItem[]>([]);
 
     useEffect(() => {
         async function fetchLogosList() {
@@ -52,4 +52,4 @@ const Logos2 = () => {
     )
 };
 
-export default Logos2;
+export default CompanyLogos;

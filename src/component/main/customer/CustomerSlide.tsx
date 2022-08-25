@@ -1,13 +1,13 @@
 import styled from "@emotion/styled";
-import {CustomerData} from "./type";
+import { CustomerData } from "../types";
 import CustomerSlideItems from "./CustomerSlideItems";
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 import CustomerButton from "./CustomerButton";
 
 const Container = styled.div`;
   position: relative;
   width: 80rem;
-  height: 522px;
+  height: 32.625rem;
   overflow: hidden;
   margin-left: 10px;
 `;

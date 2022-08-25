@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
-import {css} from "@emotion/react";
-import {useState} from "react";
+import { css } from "@emotion/react";
+import { useState } from "react";
 
 const Wrapper = styled.form`
   text-align: center;
@@ -83,7 +83,7 @@ const Describe = styled.p<{inputValue: string | ''}>`
   }
 `;
 
-const Search = () => {
+const SearchForm = () => {
 
     const [value, setValue] = useState('');
 
@@ -106,11 +106,11 @@ const Search = () => {
                 </InputContainer>
                 <Describe inputValue={value}>
                     By using Slido you accept our <br />
-                    <a href='/'>Policy.</a>
+                    <a href='/Users/kimyena/Desktop/React/slido-clone/public'>Policy.</a>
                 </Describe>
             </Container>
         </Wrapper>
     )
 };
 
-export default Search;
+export default SearchForm;

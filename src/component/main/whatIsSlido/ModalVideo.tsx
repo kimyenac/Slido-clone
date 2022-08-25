@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import {createPortal} from "react-dom";
+import { createPortal } from "react-dom";
 
 const Wrapper = styled.div<{display: boolean}>`
   display: ${({display}) => display ? 'block' : 'none'};

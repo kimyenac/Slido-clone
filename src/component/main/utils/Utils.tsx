@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import {useEffect, useState} from "react";
-import {LogoItem} from "./types";
+import { UtilItem } from "../types";
 
 const Container = styled.div`
   width: 80rem;
@@ -39,9 +39,9 @@ const SubTitle = styled.p`
   text-align: center;
 `;
 
-const Logos = () => {
+const Utils = () => {
 
-    const [logosList, setLogosList] = useState<LogoItem[]>([]);
+    const [logosList, setLogosList] = useState<UtilItem[]>([]);
 
     useEffect(() => {
         async function fetchLogosList() {
@@ -68,4 +68,4 @@ const Logos = () => {
     )
 }
 
-export default Logos
+export default Utils

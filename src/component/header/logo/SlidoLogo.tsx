@@ -5,8 +5,8 @@ const Container = styled.div`
 `;
 
 const LogoImg = styled.img`
-  width: 72px;
-  height: 24px;
+  width: 4.5rem;
+  height: 1.5rem;
   cursor: pointer;
 `;
 

@@ -1,8 +1,8 @@
 import styled from "@emotion/styled";
 
 export const Icon = styled.img`
-  width: 55px;
-  height: 55px;
+  width: 3.438rem;
+  height: 3.438rem;
 `;
 
 export const Title = styled.h4`

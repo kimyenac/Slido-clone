@@ -1,9 +1,9 @@
-import {AccordionItem} from "../naming/types";
+import { MainFeatureItem } from "../types";
 import styled from "@emotion/styled";
 import { css } from "@emotion/react";
 
 type Props = {
-    item: AccordionItem;
+    item: MainFeatureItem;
     selected: boolean;
     selectedState: () => void;
 }

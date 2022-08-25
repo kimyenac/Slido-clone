@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
-import {useEffect, useState} from "react";
-import {css} from "@emotion/react";
+import { useEffect, useState } from "react";
+import { css } from "@emotion/react";
 
 const Container = styled.div<{show: boolean}>`
   ${({show}) => show ? css`display: flex` : css`display: none`}

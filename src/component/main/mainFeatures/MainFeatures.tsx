@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import {useEffect, useState} from "react";
-import {AccordionItem} from "../naming/types";
+import { MainFeatureItem } from "../types";
 import SelectedItem from "./SelectedItem";
 
 const Wrapper = styled.div`
@@ -26,8 +26,8 @@ const AccordionList = styled.div`
   margin-right: 5rem;
 `;
 
-const Accordion = () => {
-    const [accordionList, setAccordionLIst] = useState<AccordionItem[]>([]);
+const MainFeatures = () => {
+    const [accordionList, setAccordionLIst] = useState<MainFeatureItem[]>([]);
     const [currentIdx, setCurrentIdx] = useState<number>(0);
 
     useEffect(() => {
@@ -55,4 +55,4 @@ const Accordion = () => {
     )
 };
 
-export default Accordion;
+export default MainFeatures;

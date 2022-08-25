@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
-import {useState} from "react";
-import {css} from "@emotion/react";
+import { useState } from "react";
+import { css } from "@emotion/react";
 import ModalVideo from "./ModalVideo";
 
 const Container = styled.div`
@@ -40,7 +40,7 @@ const PlayButton = styled.div<{onHover: boolean}>`
   }
 `;
 
-const Cards3 = () => {
+const WhatIsSlido = () => {
 
     const [onHover, setHover] = useState(false);
     const [showModal, setModal] = useState(false);
@@ -65,4 +65,4 @@ const Cards3 = () => {
     )
 };
 
-export default Cards3;
+export default WhatIsSlido;

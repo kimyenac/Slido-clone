@@ -1,7 +1,7 @@
 import SlidoLogo from "./logo/SlidoLogo";
 import HeaderMenu from "./menu/HeaderMenu";
 import styled from "@emotion/styled";
-import {MenuProps} from "./menu/types";
+import {MenuProps} from "./types";
 import { useState, useEffect } from "react";
 import classNames from "classnames";
 import HeaderAccount from "./acount/HeaderAccount";
@@ -24,7 +24,7 @@ const Container = styled.div`
 const NavContainer = styled.nav`
   position: relative;
   height: 3.438rem;
-  max-width: 1280px;
+  max-width: 80rem;
   padding: 0 2rem;
   margin: 0 auto;
   display: flex;

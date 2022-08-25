@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { CardItem } from './types';
+import { CardItem } from '../types';
 import { useEffect, useState } from "react";
 
 const Container = styled.section`

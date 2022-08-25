@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
-import {CustomerData} from "./type";
-import {css, keyframes} from "@emotion/react";
+import { CustomerData } from "../types";
+import { css, keyframes } from "@emotion/react";
 
 const moveToLeft = keyframes`
   0% {
@@ -56,38 +56,38 @@ const SlideContainer = styled.div<{isCurrent: boolean; dir?: "left" | "right"}>`
 `;
 
 const ReviewWrap = styled.div`
-  max-width: 580px;
-  margin-left: 80px;
-  margin-top: 50px;
+  max-width: 36.25rem;
+  margin-left: 5rem;
+  margin-top: 3.125rem;
 `;
 
 const CustomerImg = styled.div`
-  margin-right: 100px;
+  margin-right: 6.25rem;
 `;
 
 const Logo = styled.img`
-  height: 32px;
+  height: 2rem;
 `;
 
 const Comment = styled.p`
   letter-spacing: -0.5px;
-  font-size: 28px;
-  line-height: 40px;
+  font-size: 1.75rem;
+  line-height: 2.5rem;
   text-align: start;
-  margin-top: 24px;
+  margin-top: 1.5rem;
 `;
 
 const Staff = styled.p`
-  margin-top: 16px;
-  font-size: 20px;
-  line-height: 32px;
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  line-height: 2rem;
   letter-spacing: -0.5px;
   text-align: start;
 `;
 
 const StaffImg = styled.img`
   margin-right: 14px;
-  height: 522px;
+  height: 32.625rem;
 `;
 
 const CustomerSlideItems = ({customerItem, isCurrent = false, dir}:

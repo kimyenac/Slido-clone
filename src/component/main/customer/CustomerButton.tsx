@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import {useCallback, useState} from "react";
+import { useCallback, useState } from "react";
 
 const Container = styled.div`
   position: absolute;
@@ -11,9 +11,9 @@ const Container = styled.div`
 `;
 
 const SlideButton = styled.button`
-  width: 48px;
-  height: 48px;
-  border-radius: 90px;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 5.625rem;
   border: 1px solid black;
   cursor: pointer;
   display: flex;
@@ -24,9 +24,6 @@ const SlideButton = styled.button`
 const NumberContainer = styled.div`
   font-weight: bold;
   font-size: 18px;
-  //display: flex;
-  //margin: 0 1rem;
-  //font-weight: 700;
 `;
 
 const CustomerButton = ({ current, length, showPrev, showNext }:

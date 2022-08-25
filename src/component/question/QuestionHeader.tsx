@@ -88,7 +88,7 @@ const QuestionHeader = ({setPopupVisible, showSearch, setShowSearch, setSendVisi
                 {showSearch && (
                     <>
                         <PrevIcon onClick={showHelpPopup} help={false} src='/icons/feature/ic_prev.svg' alt='Help로 돌아가기' />
-                        <HeaderTitle>Search</HeaderTitle>
+                        <HeaderTitle>SearchForm</HeaderTitle>
                     </>
                 )}
                 {!showSearch && (
@@ -100,7 +100,7 @@ const QuestionHeader = ({setPopupVisible, showSearch, setShowSearch, setSendVisi
                 <CloseIcon onClick={closePopup} src='/icons/feature/ic_close.svg' alt='Popup 닫기' />
             </HeaderTitleContainer>
             <SearchBox>
-                <SearchInput onClick={showSearchPopup} placeholder='Search' />
+                <SearchInput onClick={showSearchPopup} placeholder='SearchForm' />
                 <SearchIcon>
                     <img src='/icons/feature/ic_search.svg' alt='search' />
                 </SearchIcon>

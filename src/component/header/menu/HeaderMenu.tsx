@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import MainMenuItem from "./MainMenuItem";
-import { MainMenu } from "./types";
+import { MainMenu } from "../types";
 
 const Container = styled.div`
   position: absolute;

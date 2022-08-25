@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import {CardItem2} from './types';
+import { PostItem } from '../types';
 import { useEffect, useState } from "react";
 
 const Wrapper = styled.div`
@@ -69,8 +69,8 @@ const CardBottom = styled.a`;
   }
 `;
 
-const Cards2 = () => {
-    const [cardList, setCardList] = useState<CardItem2[]>([]);
+const Posts = () => {
+    const [cardList, setCardList] = useState<PostItem[]>([]);
 
     useEffect(() => {
         async function fetchCardList() {
@@ -104,4 +104,4 @@ const Cards2 = () => {
     )
 };
 
-export default Cards2;
+export default Posts;

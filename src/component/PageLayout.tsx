@@ -1,6 +1,6 @@
 import {useEffect, useState } from "react";
 import Header from "./header/Header";
-import { MainMenu } from "./header/menu/types";
+import { MainMenu } from "./header/types";
 import Main from "./main/Main";
 import Footer from "./footer/Footer";
 

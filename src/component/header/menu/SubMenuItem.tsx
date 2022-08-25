@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
 
 import { jsx, css } from "@emotion/react";
-import {SubProps} from "./types";
+import {SubProps} from "../types";
 import styled from "@emotion/styled";
 import {useState} from "react";
 import {Icon, Title, Description, Link} from "./subMenuRight";

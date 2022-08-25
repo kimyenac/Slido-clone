@@ -1,4 +1,3 @@
-
 export type QuestionList = {
     id: number;
     title: string;

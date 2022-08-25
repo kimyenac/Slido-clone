@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import {MainProps, Tag} from "./types";
+import {MainProps, Tag} from "../types";
 import {useState} from "react";
 import SubMenuItem from "./SubMenuItem";
 import {css} from "@emotion/react";

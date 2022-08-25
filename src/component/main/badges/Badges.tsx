@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import {useEffect, useState} from "react";
-import {BadgeItem} from "./types";
+import { BadgeItem } from "../types";
 
 const Container = styled.div`
   margin-top: 2rem;

@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
 
 import styled from "@emotion/styled";
-import {css} from "@emotion/react";
+import { css } from "@emotion/react";
 
 const Container = styled.div`
   display: flex;
@@ -69,7 +69,7 @@ export const Link = styled.a`
   }
 `;
 
-const IndexHeader = () => {
+const MainHeader = () => {
     return (
         <Container>
             <Title>
@@ -91,4 +91,4 @@ const IndexHeader = () => {
     )
 }
 
-export default IndexHeader;
+export default MainHeader;

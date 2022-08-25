@@ -1,11 +1,10 @@
-
-export type LogoItem = {
+export type UtilItem = {
     id: number;
     name: string;
     icon: string;
 }
 
-export type LogoItem2 = {
+export type companyLogoItem = {
     id: number;
     company: string;
     companyLogo: string;
@@ -18,7 +17,7 @@ export type CardItem = {
     icon: string;
 }
 
-export type CardItem2 = {
+export type PostItem = {
     id: number;
     title: string;
     href: string;
@@ -31,10 +30,19 @@ export type BadgeItem = {
     icon: string;
 }
 
-export type AccordionItem = {
+export type MainFeatureItem = {
     id: number;
     title: string;
     description: string;
     icon: string;
     video: string;
+}
+
+export type CustomerData = {
+    id: number;
+    company: string;
+    companyLogo: string;
+    staff: string;
+    staffPhoto: string;
+    comment: string;
 }

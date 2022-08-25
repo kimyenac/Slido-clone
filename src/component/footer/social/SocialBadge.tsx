@@ -25,7 +25,7 @@ const Container = styled.li`
 `;
 
 const BadgeIcon = styled.img`
-  width: 200px;
+  width: 12.5rem;
 `;
 
 const SocialBadge = () => {

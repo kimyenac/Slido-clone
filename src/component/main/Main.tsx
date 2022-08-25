@@ -1,15 +1,15 @@
 import styled from "@emotion/styled";
-import IndexHeader from "./naming/IndexHeader";
-import Logos from "./naming/Logos";
-import MiddleBox from "./naming/MiddleBox";
-import Cards from "./naming/Cards";
-import Badges from "./naming/Badges";
-import Logos2 from "./naming/Logos2";
-import CtaGreen from "./naming/CtaGreen";
-import Search from "./naming/Search";
-import Cards2 from "./naming/Cards2";
-import Cards3 from "./modal/Cards3";
-import Accordion from "./accordion/Accordion";
+import MainHeader from "./mainHeader/MainHeader";
+import Utils from "./utils/Utils";
+import MiddleBox from "./middleBox/MiddleBox";
+import Cards from "./cards/Cards";
+import Badges from "./badges/Badges";
+import CompanyLogos from "./companyLogos/CompanyLogos";
+import GreenPlace from "./greenPlace/GreenPlace";
+import SearchForm from "./searchForm/SearchForm";
+import Posts from "./posts/Posts";
+import WhatIsSlido from "./whatIsSlido/WhatIsSlido";
+import MainFeatures from "./mainFeatures/MainFeatures";
 import Customers from "./customer/Customers";
 
 const Container = styled.main`
@@ -21,18 +21,18 @@ const Container = styled.main`
 const Main = () => {
     return (
         <Container>
-            <Search />
-            <IndexHeader />
-            <Logos />
-            <Cards3 />
+            <SearchForm />
+            <MainHeader />
+            <Utils />
+            <WhatIsSlido />
             <MiddleBox />
-            <Accordion />
+            <MainFeatures />
             <Cards />
             <Badges />
             <Customers />
-            <Logos2 />
-            <CtaGreen />
-            <Cards2 />
+            <CompanyLogos />
+            <GreenPlace />
+            <Posts />
         </Container>
     )
 }

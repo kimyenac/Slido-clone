@@ -12,7 +12,7 @@ const MainTitle = styled.h2`
   font-size: 3rem;
   line-height: 3.5rem;
   font-weight: 700;
-  padding-bottom: 48px;
+  padding-bottom: 3rem;
 `;
 
 const Customers = () => {

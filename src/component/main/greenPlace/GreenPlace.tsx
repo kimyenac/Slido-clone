@@ -53,7 +53,7 @@ const Button = styled.a`
   }
 `;
 
-const CtaGreen = () => {
+const GreenPlace = () => {
     return (
         <Wrapper>
             <Container>
@@ -69,4 +69,4 @@ const CtaGreen = () => {
     )
 };
 
-export default CtaGreen;
+export default GreenPlace;
