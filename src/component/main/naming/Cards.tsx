@@ -14,7 +14,7 @@ const Container = styled.section`
 
 const CardItemList = styled.div`
   display: flex;
-  gap: 30px;
+  gap: 1.875rem;
 `;
 
 const CardItems = styled.div`
@@ -24,7 +24,7 @@ const CardItems = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 25px;
+  gap: 1.563rem;
 `;
 
 const CardTitle = styled.h3`

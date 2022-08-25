@@ -28,5 +28,13 @@ export type CardItem2 = {
 export type BadgeItem = {
     id: number;
     title: string;
-    badge: string;
+    icon: string;
+}
+
+export type AccordionItem = {
+    id: number;
+    title: string;
+    description: string;
+    icon: string;
+    video: string;
 }

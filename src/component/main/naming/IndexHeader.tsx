@@ -30,8 +30,8 @@ const Horizontal = styled.div<{marginTop?: number, marginBottom?: number}>`
   justify-content: center;
   align-items: center;
   gap: 16px;
-  ${({marginTop}) => marginTop && css`margin-top: ${marginTop}px`}
-  ${({marginBottom}) => marginBottom && css`bottom: ${marginBottom}px`}
+  ${({marginTop}) => marginTop && css`margin-top: ${marginTop}rem`}
+  ${({marginBottom}) => marginBottom && css`bottom: ${marginBottom}rem`}
 `;
 
 const Button = styled.button`
@@ -53,6 +53,7 @@ const Button = styled.button`
   
   &:hover {
     background-color: #000;
+    border: 0.0625rem solid #000;
   }
 `;
 
@@ -79,11 +80,11 @@ const IndexHeader = () => {
                 Engage your participants with live polls, Q&A, quizzes and word clouds <br />
                 — whether you meet in the office, online or in-between.
             </SubTitle>
-            <Horizontal marginTop={32} marginBottom={12}>
+            <Horizontal marginTop={2} marginBottom={0.75}>
                 <Button>Get started for free</Button>
                 <Link>Schedule a demo</Link>
             </Horizontal>
-            <Horizontal marginTop={48} marginBottom={32}>
+            <Horizontal marginTop={3} marginBottom={2}>
                 <video src={"/videos/videos_welcome.mp4"} css={css`width: 800px;`} autoPlay loop playsInline muted />
             </Horizontal>
         </Container>

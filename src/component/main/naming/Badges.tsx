@@ -42,7 +42,7 @@ const Badges = () => {
             <ItemContainer>
                 {badgeList.map((badge) => (
                     <Item key={badge.id}>
-                        <img src={badge.badge} alt={badge.title} />
+                        <img src={badge.icon} alt={badge.title} />
                     </Item>
                 ))}
             </ItemContainer>

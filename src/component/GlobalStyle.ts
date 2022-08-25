@@ -13,7 +13,7 @@ const GlobalStyle = createGlobalStyle`
     }
     
     button {
-      font-size: 16px;
+      font-size: 1rem;
       background: none;
       border: none;
     }

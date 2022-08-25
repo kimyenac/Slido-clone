@@ -1,0 +1,18 @@
+{
+  "result": [
+    { "id": 1, "title": "What is Slido?", "subTitle": "Updated by Slido Team" },
+    { "id": 2, "title": "How can I join Slido as a participant?", "subTitle": "Posted by Slido Team" },
+    { "id": 3, "title": "How many participants can ask questions or vote in polls?", "subTitle": "Updated by Slido Team" },
+    { "id": 4, "title": "Integrations with live conferencing and event platforms", "subTitle": "Posted by Slido Team" },
+
+    { "id": 5, "title": "Embed your Slido event or a poll into a website", "subTitle": "Updated by Slido Team" },
+    { "id": 6, "title": "All about our annual plans - features, number of events, payment options, and renewals", "subTitle": "Posted by Slido Team" },
+    { "id": 7, "title": "Use Slido for remote meetings, classes, events, and webinars", "subTitle": "Posted by Slido Team" },
+    { "id": 8, "title": "Purchasing a plan and payment options", "subTitle": "Updated by Slido Team" },
+
+    { "id": 9, "title": "Create your Slido event", "subTitle": "Posted by Slido Team" },
+    { "id": 10, "title": "Create a poll, quiz, or a survey", "subTitle": "Updated by Slido Team" },
+    { "id": 11, "title": "Run a quiz via Slido", "subTitle": "Updated by Slido Team" },
+    { "id": 12, "title": "Share access and add guest collaborators to your event", "subTitle": "Updated by Slido Team" }
+  ]
+}

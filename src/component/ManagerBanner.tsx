@@ -19,7 +19,7 @@ const Container = styled.div<{show: boolean}>`
   max-width: 27.5rem;
   flex-direction: column;
   border-radius: 0.25rem;
-  z-index: 94;
+  z-index: 5;
   transition: .3s;
 `;
 

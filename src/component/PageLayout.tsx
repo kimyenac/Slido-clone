@@ -2,6 +2,7 @@ import {useEffect, useState } from "react";
 import Header from "./header/Header";
 import { MainMenu } from "./header/menu/types";
 import Main from "./main/Main";
+import Footer from "./footer/Footer";
 
 const PageLayout = () => {
     const [headerMenuList, setHeaderMenuList] = useState<MainMenu[]>([]);
@@ -20,6 +21,7 @@ const PageLayout = () => {
         <>
             <Header menuList={headerMenuList} />
             <Main />
+            <Footer />
         </>
     );
 };

@@ -3,11 +3,11 @@ import {useEffect, useState} from "react";
 import {LogoItem} from "./types";
 
 const Container = styled.div`
-  width: 100%;
+  width: 80rem;
   display: flex;
   flex-direction: column;
-  gap: 32px;
-  padding: 56px 32px;
+  gap: 2rem;
+  padding: 3.5rem 2rem;
 `;
 
 const SubHeadline = styled.h2`
@@ -29,7 +29,7 @@ const Item = styled.div`
   flex: 1;
   flex-direction: column;
   align-items: center;
-  gap: 4px;
+  gap: 0.25rem;
 `;
 
 const SubTitle = styled.p`

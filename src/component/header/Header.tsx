@@ -11,7 +11,7 @@ const Container = styled.div`
   position: fixed;
   top: 0;
   left: 0;
-  padding: 16px 0 0;
+  padding: 1rem 0 0;
   background-color: #fff;
   
   z-index: 1;
@@ -23,9 +23,9 @@ const Container = styled.div`
 
 const NavContainer = styled.nav`
   position: relative;
-  height: 55px;
+  height: 3.438rem;
   max-width: 1280px;
-  padding: 0 32px;
+  padding: 0 2rem;
   margin: 0 auto;
   display: flex;
   align-items: center;
