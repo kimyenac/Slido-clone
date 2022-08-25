@@ -36,7 +36,7 @@ const InputIcon = styled.img<{horizontal: string}>`
   top: 50%;
   transform: translateY(-50%);
   
-  ${({horizontal}) => horizontal === 'left' ? css`left: 1rem` : css`right: 0.5rem`}
+  ${({horizontal}) => horizontal === 'left' ? css`left: 1rem` : css`right: 0.5rem; cursor: pointer;`}
 `;
 
 const Input = styled.input`

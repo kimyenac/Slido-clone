@@ -1,42 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990f6c18-eb78-4c84-bb35-cb8e419886b3" name="Changes" comment="feat: 리팩토링 전 작업 마무리">
+    <list default="true" id="990f6c18-eb78-4c84-bb35-cb8e419886b3" name="Changes" comment="feat: 파일 정리, 네이밍 변경 리팩토링">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/GlobalStyle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/GlobalStyle.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ManagerBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/managerBanner/ManagerBanner.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/PageLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/PageLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/footer/social/SocialBadge.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/footer/social/SocialBadge.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/header/logo/SlidoLogo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/logo/SlidoLogo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/header/menu/HeaderMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/menu/HeaderMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/header/menu/MainMenuItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/menu/MainMenuItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/header/menu/SubMenuItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/menu/SubMenuItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/header/menu/subMenuRight.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/menu/subMenuRight.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/header/menu/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/mainFeatures/MainFeatures.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/accordion/SelectedItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/mainFeatures/SelectedItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/customer/CustomerButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/customer/CustomerButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/customer/CustomerSlide.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/customer/CustomerSlide.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/customer/CustomerSlideItems.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/customer/CustomerSlideItems.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/customer/Customers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/customer/Customers.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/customer/type.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/modal/Cards3.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/whatIsSlido/WhatIsSlido.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/modal/ModalVideo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/whatIsSlido/ModalVideo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/naming/Badges.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/badges/Badges.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/naming/Cards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/cards/Cards.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/naming/Cards2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/posts/Posts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/naming/CtaGreen.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/greenPlace/GreenPlace.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/naming/IndexHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/mainHeader/MainHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/naming/Logos.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/utils/Utils.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/naming/Logos2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/companyLogos/CompanyLogos.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/naming/MiddleBox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/middleBox/MiddleBox.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/naming/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/searchForm/SearchForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/naming/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/question/QuestionHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/question/QuestionHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/question/type.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/question/type.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/footer/social/FooterSocials.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/footer/social/FooterSocials.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/main/searchForm/SearchForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/searchForm/SearchForm.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +142,8 @@
       <workItem from="1661388105768" duration="1241000" />
       <workItem from="1661411551459" duration="1797000" />
       <workItem from="1661417261593" duration="2016000" />
-      <workItem from="1661428934173" duration="3161000" />
+      <workItem from="1661428934173" duration="3666000" />
+      <workItem from="1661433459892" duration="134000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 작업 전 파일 정리, header 작업 전 파일 세팅">
       <created>1659699672152</created>
@@ -246,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661418679977</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: 파일 정리, 네이밍 변경 리팩토링">
+      <created>1661432762782</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661432762782</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +256,8 @@
     <MESSAGE value="feat: main 일부 작ㅏ" />
     <MESSAGE value="feat: main 일부 작업" />
     <MESSAGE value="feat: 리팩토링 전 작업 마무리" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 리팩토링 전 작업 마무리" />
+    <MESSAGE value="feat: 파일 정리, 네이밍 변경 리팩토링" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 파일 정리, 네이밍 변경 리팩토링" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
