@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { CustomerData } from "../types";
+import {CustomerData, CustomerSlideProps} from "../types";
 import { css, keyframes } from "@emotion/react";
 
 const moveToLeft = keyframes`
@@ -20,7 +20,7 @@ const moveToRight = keyframes`
   }
 `;
 
-const SlideContainer = styled.div<{isCurrent: boolean; dir?: "left" | "right"}>`
+const SlideContainer = styled.div<CustomerSlideProps>`
 
   position: absolute;
   width: 100%;

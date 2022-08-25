@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { CustomerData } from "../types";
+import { CustomerData, CustomerSlideItem } from "../types";
 import CustomerSlideItems from "./CustomerSlideItems";
 import { useEffect, useState } from "react";
 import CustomerButton from "./CustomerButton";
@@ -15,7 +15,7 @@ const Container = styled.div`;
 const CustomerSlide = () => {
 
     const [customerList, setCustomerList] = useState<CustomerData[]>([]);
-    const [animationMeta, setAnimationMeta] = useState<{ dir?: "left" | "right", before: number, current: number, isValidation: boolean }>({ before: -1, current: -1, isValidation: true });
+    const [animationMeta, setAnimationMeta] = useState<CustomerSlideItem>({ before: -1, current: -1, isValidation: true });
 
     const showPrev = () => {
         setAnimationMeta((prev) => ({

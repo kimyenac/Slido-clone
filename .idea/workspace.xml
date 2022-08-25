@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="990f6c18-eb78-4c84-bb35-cb8e419886b3" name="Changes" comment="feat: 파일 정리, 네이밍 변경 리팩토링">
+    <list default="true" id="990f6c18-eb78-4c84-bb35-cb8e419886b3" name="Changes" comment="fix: CSS 수정 마무리">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/footer/social/FooterSocials.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/footer/social/FooterSocials.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/main/searchForm/SearchForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/searchForm/SearchForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/main/customer/CustomerButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/customer/CustomerButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/main/customer/CustomerSlide.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/customer/CustomerSlide.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/main/customer/CustomerSlideItems.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/customer/CustomerSlideItems.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/main/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/main/types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +145,8 @@
       <workItem from="1661411551459" duration="1797000" />
       <workItem from="1661417261593" duration="2016000" />
       <workItem from="1661428934173" duration="3666000" />
-      <workItem from="1661433459892" duration="134000" />
+      <workItem from="1661433459892" duration="197000" />
+      <workItem from="1661434457070" duration="177000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 작업 전 파일 정리, header 작업 전 파일 세팅">
       <created>1659699672152</created>
@@ -222,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661432762782</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fix: CSS 수정 마무리">
+      <created>1661433645163</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661433645163</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +267,8 @@
     <MESSAGE value="feat: main 일부 작업" />
     <MESSAGE value="feat: 리팩토링 전 작업 마무리" />
     <MESSAGE value="feat: 파일 정리, 네이밍 변경 리팩토링" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 파일 정리, 네이밍 변경 리팩토링" />
+    <MESSAGE value="fix: CSS 수정 마무리" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: CSS 수정 마무리" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

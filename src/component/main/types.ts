@@ -46,3 +46,22 @@ export type CustomerData = {
     staffPhoto: string;
     comment: string;
 }
+
+export type CustomerSlideItem = {
+    dir?: "left" | "right";
+    before: number;
+    current: number;
+    isValidation: boolean;
+}
+
+export type CustomerSlideProps = {
+    isCurrent: boolean;
+    dir?: "left" | "right";
+}
+
+export type CustomerButtonItem = {
+    current: number;
+    length: number;
+    showPrev: () => void;
+    showNext: () => void;
+}

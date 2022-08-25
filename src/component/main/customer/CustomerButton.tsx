@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
 import { useCallback, useState } from "react";
+import {CustomerButtonItem} from "../types";
 
 const Container = styled.div`
   position: absolute;
@@ -26,11 +27,7 @@ const NumberContainer = styled.div`
   font-size: 18px;
 `;
 
-const CustomerButton = ({ current, length, showPrev, showNext }:
-                            { current: number;
-                                length: number;
-                                showPrev: () => void;
-                                showNext: () => void;}) => {
+const CustomerButton = ({ current, length, showPrev, showNext }: CustomerButtonItem) => {
 
     const [activate, setActivate] = useState<boolean>(true);
     const timeDir = useCallback(
