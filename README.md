@@ -1,4 +1,4 @@
-# Slido-Clone Coding
+# Slido-Clone
 
 **첫 사이드 프로젝트**
 
